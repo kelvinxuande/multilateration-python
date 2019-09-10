@@ -269,8 +269,8 @@ def endpoint(endpoint_start):
 
 """Function to connect to hardcoded host, port"""
 def connect():
-    host = "169.254.210.120"
-    port = 10003
+    host = "aaa.bbb.ccc.ddd"    # target IP address (str)
+    port = xxxxx    # port number (int)
     while True:
         try:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
